@@ -9,7 +9,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "cliente") //prueba de git
+@Table(name = "cliente") //prueba de git 2
 public class CCliente {
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
